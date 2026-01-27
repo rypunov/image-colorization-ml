@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# МОИ ИЗМЕНЕНИЯ
+
+# Данные и модели
+data/
+outputs/
+
+# Colab/IDE специфичное
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и кэш
+*.log
+.cache/
+.pytest_cache/
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Веса моделей (если не в папке models)
+*.pth
+*.pt
+*.h5
+*.pkl
