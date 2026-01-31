@@ -209,8 +209,9 @@ __marimo__/
 
 # МОИ ИЗМЕНЕНИЯ
 
-# Данные и модели
-data/
+# Данные и модели (кроме data/raw/)
+data/processed/
+data/datasets/
 outputs/
 
 # Colab/IDE специфичное
