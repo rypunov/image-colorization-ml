@@ -211,7 +211,7 @@ __marimo__/
 
 # Данные и модели (кроме data/raw/)
 data/processed/
-data/datasets/
+data/cifar10_raw/
 outputs/
 
 # Colab/IDE специфичное
