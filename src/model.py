@@ -128,7 +128,7 @@ class UNet(nn.Module):
         dec1 = self.decoder1(dec2, enc1)
 
         # Выход
-        return self.out_conv(dec1)
+        return torch.tanh(self.out_conv(dec1))
 
 
 def test_model():
